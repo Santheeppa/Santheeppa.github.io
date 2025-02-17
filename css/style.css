@@ -2558,3 +2558,32 @@ body {
 }
 
 
+/* Ensure the page doesn't overflow */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Make sure sections don't extend beyond the screen */
+.container, .row {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Fix Project Section responsiveness */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project__item {
+  width: 100%; /* Make projects full-width on small screens */
+  max-width: 400px; /* Restrict max width */
+  margin: 10px;
+}
+
+/* Ensure images don't cause overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
