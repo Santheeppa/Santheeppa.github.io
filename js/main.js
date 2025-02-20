@@ -54,6 +54,23 @@
         allowParentLinks: true
     });
 
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".slicknav_nav a");
+        const menuButton = document.querySelector(".slicknav_btn");
+      
+        navLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            document.querySelector(".slicknav_nav").style.display = "none";
+          });
+        });
+      
+        menuButton.addEventListener("click", () => {
+          const menu = document.querySelector(".slicknav_nav");
+          menu.style.display = menu.style.display === "none" ? "block" : "none";
+        });
+      });
+      
     /*------------------
 		Hero Slider
 	--------------------*/
