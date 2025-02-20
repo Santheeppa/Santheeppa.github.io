@@ -485,9 +485,9 @@ ol {
 }
 
 .hero__text span {
-  color: #ffffff;
+  color: #00ffff;
   display: block;
-  font-size: 15px;
+  font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 18px;
@@ -512,6 +512,21 @@ ol {
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
 }
+
+/* Style for Aspiring Data Scientist */
+.hero__text h3 {
+  font-size: 40px; /* Adjust size */
+  font-weight: 600; /* Slightly bold */
+  color: #ffcc00; /* Change to your preferred color */
+  font-style: italic;
+  margin-top: 10px; /* Space above */
+  margin-bottom: 20px; /* Added space below */
+  top: 100px;
+  -webkit-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+
 .hero__text .primary-btn {
   position: relative;
   top: 100px;
@@ -2074,7 +2089,17 @@ ol {
     display: none;
   }
 
+  .hero__text span {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
   .hero__text h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .hero__text h3 {
     font-size: 40px;
     line-height: 40px;
   }
@@ -2138,6 +2163,16 @@ ol {
   .hero__text h2 {
     font-size: 30px;
     line-height: 40px;
+  }
+
+  .hero__text span {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hero__text h3 {
+    font-size: 25px;
+    line-height: 35px;
   }
 
   .grid-sizer {
