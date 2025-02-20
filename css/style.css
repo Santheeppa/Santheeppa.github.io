@@ -487,7 +487,7 @@ ol {
 .hero__text span {
   color: #00ffff;
   display: block;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 18px;
@@ -515,7 +515,7 @@ ol {
 
 /* Style for Aspiring Data Scientist */
 .hero__text h3 {
-  font-size: 40px; /* Adjust size */
+  font-size: 45px; /* Adjust size */
   font-weight: 600; /* Slightly bold */
   color: #ffcc00; /* Change to your preferred color */
   font-style: italic;
