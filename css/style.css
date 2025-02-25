@@ -2632,6 +2632,33 @@ body {
 
 
 
+/* Fix for Laptop Screens (1366px) */
+@media (max-width: 1366px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Centers items */
+    padding: 40px 0;
+  }
+
+  .project__item {
+    width: 320px; /* Adjust width */
+    height: 180px; /* Maintain aspect ratio */
+    margin: 15px;
+    background-size: cover;
+  }
+
+  /* Remove Diagonal Effect */
+  .project__item:nth-child(1),
+  .project__item:nth-child(2),
+  .project__item:nth-child(3),
+  .project__item:nth-child(4) {
+    margin-top: 0;
+  }
+}
+
+
+
 #contact-section::before {
   content: "";
   position: absolute;
